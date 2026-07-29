@@ -48,8 +48,8 @@ All SDK exceptions inherit from `RunApi\Core\Errors\RunApiException`, including 
 ## Links
 
 - Model page: https://runapi.ai/models/runway-aleph
-- SDK docs: https://runapi.ai/docs#sdk-runway-aleph
-- Product docs: https://runapi.ai/docs#runway-aleph
+- SDK docs: https://runapi.ai/docs/resources/sdks
+- Product docs: https://runapi.ai/docs/api/runway-aleph/edit-video
 - Pricing and rate limits: https://runapi.ai/models/runway-aleph
 - Full catalog: https://runapi.ai/models
 - GitHub repository: https://github.com/runapi-ai/runway-aleph-php
