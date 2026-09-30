@@ -10,7 +10,6 @@ use RunApi\Core\RequestOptions;
 use RunApi\Core\Resources\TypedConfiguredResource;
 use RunApi\RunwayAleph\Models\CompletedVideoTaskResponse;
 use RunApi\RunwayAleph\Models\VideoTaskResponse;
-use RunApi\RunwayAleph\Types;
 
 /**
  * Transforms an existing video using a text prompt. Optionally provide a reference_image_url to guide the visual style of the transformation.
@@ -71,10 +70,8 @@ readonly class EditVideo extends TypedConfiguredResource
         return new self(
             $http,
             '/api/v1/runway_aleph/edit_video',
-            'runway-aleph/edit-video',
             VideoTaskResponse::class,
             CompletedVideoTaskResponse::class,
-            Types::EDIT_VIDEO_MODELS,
             'edit-video',
             VideoTaskResponse::class,
             CompletedVideoTaskResponse::class,
